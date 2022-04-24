@@ -1,0 +1,31 @@
+:root {
+    --waitingForDataColor: #ffffff9e;
+}
+
+.menuCard_waitingForData {
+
+}
+
+.menuCard_waitingForData h1 {
+    display: flex;
+    width: 156px;
+    height: 30px;
+    background-color: var(--waitingForDataColor);
+    margin: 10px 0;
+}
+
+.menuCard_waitingForData h3 {
+    display: flex;
+    width: 156px;
+    height: 22px;
+    background-color: var(--waitingForDataColor);
+    margin: 10px;
+}
+
+.menuCard_waitingForData li {
+    display: flex;
+    width: 224px;
+    height: 19px;
+    background-color: var(--waitingForDataColor);
+    margin: 5px 0;
+}
