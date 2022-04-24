@@ -1,6 +1,12 @@
-fetchMenuCardData("hot", "HotDrinks");
-fetchMenuCardData("cold", "ColdDrinks");
-fetchMenuCardData("pastries", "Pastries");
+setTimeout(() => {
+    fetchMenuCardData("hot", "HotDrinks");
+}, Math.random() * 5000);
+setTimeout(() => {
+    fetchMenuCardData("cold", "ColdDrinks");
+}, Math.random() * 5000);
+setTimeout(() => {
+    fetchMenuCardData("pastries", "Pastries");
+}, Math.random() * 5000);
 
 function fetchMenuCardData(elementIdPrefix, dataId) {
     console.log(`fetching menu card data with elementIdPrefix ${elementIdPrefix} and dataId ${dataId}...`);
